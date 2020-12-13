@@ -1,7 +1,9 @@
-import '../styles/globals.css'
+import React from "react";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+import "../styles/globals.css";
+
+function AltarFrontendApp ({ Component, pageProps }) {
+    return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default AltarFrontendApp;
